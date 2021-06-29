@@ -1,3 +1,7 @@
+
+catch exp: https://github.com/LOuroboros/pokeemerald/commit/a94c652e2c2eb15cddd54d941e88a61e35ce35c7
+destiny knot ivs: https://www.pokecommunity.com/showthread.php?p=10161151&highlight=destiny&styleid=309#
+
 # Pokémon Emerald
 
 This is a decompilation of Pokémon Emerald.
