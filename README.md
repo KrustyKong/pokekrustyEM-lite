@@ -1,6 +1,7 @@
 
-catch exp: https://github.com/LOuroboros/pokeemerald/commit/a94c652e2c2eb15cddd54d941e88a61e35ce35c7
-destiny knot ivs: https://www.pokecommunity.com/showthread.php?p=10161151&highlight=destiny&styleid=309#
+- catch exp: https://github.com/LOuroboros/pokeemerald/commit/a94c652e2c2eb15cddd54d941e88a61e35ce35c7
+- destiny knot ivs: https://www.pokecommunity.com/showthread.php?p=10161151&highlight=destiny&styleid=309#
+- iv's on status screen: https://www.pokecommunity.com/showpost.php?p=10161688&postcount=77
 
 # Pokémon Emerald
 
