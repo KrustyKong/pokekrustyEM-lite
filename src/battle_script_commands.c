@@ -3268,18 +3268,19 @@ static void Cmd_getexp(void)
             calculatedExp = gBaseStats[gBattleMons[gBattlerFainted].species].expYield * gBattleMons[gBattlerFainted].level / 7;
 
             if (viaExpShare) // at least one mon is getting exp via exp share
+            //edited so all mons always get full exp. 
             {
-                *exp = calculatedExp / 2 / viaSentIn;
+                *exp = calculatedExp;// / 2 / viaSentIn;
                 if (*exp == 0)
                     *exp = 1;
 
-                gExpShareExp = calculatedExp / 2 / viaExpShare;
+                gExpShareExp = calculatedExp;// / 2 / viaExpShare;
                 if (gExpShareExp == 0)
                     gExpShareExp = 1;
             }
             else
             {
-                *exp = calculatedExp / viaSentIn;
+                *exp = calculatedExp;// / viaSentIn;
                 if (*exp == 0)
                     *exp = 1;
                 gExpShareExp = 0;
