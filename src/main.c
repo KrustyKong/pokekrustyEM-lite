@@ -103,9 +103,9 @@ void AgbMain()
     CheckForFlashMemory();
     InitMainCallbacks();
     InitMapMusic();
-#ifdef BUGFIX
+//#ifdef BUGFIX
     SeedRngWithRtc(); // see comment at SeedRngWithRtc definition below
-#endif
+//#endif
     ClearDma3Requests();
     ResetBgs();
     SetDefaultFontsPointer();
@@ -217,14 +217,14 @@ void EnableVCountIntrAtLine150(void)
 }
 
 // FRLG commented this out to remove RTC, however Emerald didn't undo this!
-#ifdef BUGFIX
+//#ifdef BUGFIX
 static void SeedRngWithRtc(void)
 {
     u32 seed = RtcGetMinuteCount();
     seed = (seed >> 16) ^ (seed & 0xFFFF);
     SeedRng(seed);
 }
-#endif
+//#endif
 
 void InitKeys(void)
 {
