@@ -1552,14 +1552,14 @@ static void Task_HandleInput(u8 taskId)
             BeginCloseSummaryScreen(taskId);
         }
 // show IVs/EVs/stats on button presses
-    else if (gMain.newKeys & R_BUTTON)
+    else if (gMain.newKeys & A_BUTTON)
     {
     if (sMonSummaryScreen->currPageIndex == PSS_PAGE_SKILLS)
     {
         BufferIvOrEvStats(0);
     }
 }
-else if (gMain.newKeys & L_BUTTON)
+else if (gMain.newKeys & R_BUTTON)
 {
     if (sMonSummaryScreen->currPageIndex == PSS_PAGE_SKILLS)
     {
