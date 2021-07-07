@@ -5417,7 +5417,7 @@ static void Cmd_yesnoboxlearnmove(void)
             else
             {
                 u16 moveId = GetMonData(&gPlayerParty[gBattleStruct->expGetterMonId], MON_DATA_MOVE1 + movePosition);
-                             {
+                    // 'STRINGID_HMMOVESCANTBEFORGOTTEN' and such used to be here 
                     gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
 
                     PREPARE_MOVE_BUFFER(gBattleTextBuff2, moveId)
